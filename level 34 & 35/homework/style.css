@@ -1,0 +1,16 @@
+.gela{
+    color: aqua;
+    text-transform: capitalize;
+}
+.giorgi{
+    color: red;
+    text-transform: lowercase;
+}
+.zurik{
+    color: pink;
+    text-transform: uppercase;
+}
+.lasha{
+    color: salmon;
+    text-transform: unset;
+}
