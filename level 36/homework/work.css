@@ -1,0 +1,15 @@
+.start{
+    color: rgb(0, 0, 0);
+    text-shadow: 50px 50px 4px;
+}
+.hc{
+    color: rgb(0, 255, 34);
+    text-shadow: 20px 20px 2px black;
+    text-decoration: none;
+}
+.center{
+    text-decoration: none;
+}
+.negative{
+    text-align: center;
+}
