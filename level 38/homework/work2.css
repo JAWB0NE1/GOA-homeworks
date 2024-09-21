@@ -1,0 +1,23 @@
+#mp{
+    size: 30px;
+    text-align: center;
+    color: rgb(0, 255, 13);
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRskIkxdS0waOxs0V2TkoFE1T0_u5Ny031dw&s");
+    
+}
+#tg{
+    text-shadow: 30px 30px 3px black;
+    text-align: center;
+    color: white;
+}
+button{
+    
+    width: 200px;
+    background-color: green;
+}
+#a{
+    color: aliceblue;
+    text-decoration: none;
+}
