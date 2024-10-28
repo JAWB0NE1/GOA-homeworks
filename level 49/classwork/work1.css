@@ -1,0 +1,16 @@
+.WTMS{
+    text-align: center;
+    color:darkgreen;
+    text-shadow: 30px 40px 3px black;
+}
+.yes_no{
+    text-align: left;
+    color: darkgreen;
+    text-shadow: 30px 40px 3px black;
+}
+.yes{
+    
+    text-align: right;
+    color: darkgreen;
+    text-shadow: 30px 40px 3px black;
+}

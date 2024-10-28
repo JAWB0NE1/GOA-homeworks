@@ -1,0 +1,24 @@
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    height: 200px;
+    width: 400px;
+    position: static;
+
+}  
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    right: -400px;
+    top: -200px;
+}
+.lux{
+    background-color: hsl(179, 100%, 13%);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    right: 800;
+    top: 200;
+}
+     
