@@ -1,0 +1,16 @@
+div{
+    height: 300px;
+    width: 300px;
+}
+.one{  
+    background-color: blue;
+}
+.two{
+    background-color: greenyellow;
+}
+.thre{
+    background-color: aqua;
+}
+.four{
+    background-color: rgb(255, 0, 0);
+}
