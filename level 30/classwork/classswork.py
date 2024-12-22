@@ -1,1 +1,1 @@
-#no classwork
+#no level 30 in classwork section

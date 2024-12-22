@@ -1,0 +1,16 @@
+
+    
+
+.jak{
+    color: white;
+    position: flex;
+    text-align: center;
+
+}
+.hello{
+    width: 700px;
+    height: 100px;
+    background-color: rgb(53, 53, 53);
+    position: flex;
+    left: 500px;
+}
