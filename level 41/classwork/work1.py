@@ -1,2 +1,1 @@
-x="G!O!A!"
-x=str.replace('!', '.')
+#i don't understand

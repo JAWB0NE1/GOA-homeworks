@@ -1,17 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="work1.css">
-    <title>my classwork</title>
+    <title>ვებგვერდის სათაური</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: white;
+            padding: 10px 20px;
+            position: relative;
+        }
+
+        header h1 {
+            display: inline;
+            margin: 0;
+        }
+        nav {
+            display: inline-block;
+            float: right;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+
+        section:nth-of-type(1) {
+            position: static;
+        }
+
+        section:nth-of-type(2) {
+            position: relative;
+            background-color: #f9f9f9;
+        }
+
+        .relative-box {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: #e1e1e1;
+            padding: 20px;
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            width: 200px;
+            padding: 20px;
+            background-color: #d1d1d1;
+        }
+
+        .sticky-element {
+            position: sticky;
+            top: 0;
+            background-color: #ffeb3b;
+            padding: 10px;
+            font-size: 20px;
+            z-index: 10;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="WTMS">Welcome To My Site</h1>
-    <br>
-    <br>
-    <h2 class="yes_no">I Have Only One Question... Do You Like White Shoose?</h2>
-    <h2 class="yes"> Your Answer Is Yes Then</h2>
+
+    <header>
+        <h1>ვებგვერდის სათაური</h1>
+        <nav>
+            <a href="#">მთავარი</a>
+            <a href="#">მომსახურებები</a>
+            <a href="#">კონტაქტი</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>პირველი სექცია (Static)</h2>
+        <p>ეს არის სტატიკური კონტენტი, რომელიც არ გადაადგილდება გვერდის სკროლით.</p>
+    </section>
+
+    <section>
+        <h2>მეორე სექცია (Relative Position)</h2>
+        <div class="relative-box">
+            <p>ეს ბლოკი არის შედარებით პოზიციონირებული და გადაადგილდება ზედა და მარცხენა მიმართულებით.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>მესამე სექცია (Absolute Position)</h2>
+        <div class="absolute-box">
+            <p>ეს კონტენტი მდებარეობს კონკრეტულ წერტილში, აბსოლუტურად პოზიციონირებულია.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>მეოთხე სექცია (Sticky Element)</h2>
+        <div class="sticky-element">
+            <p>ეს ელემენტი დარჩება ხილული, სანამ გვერდი არ დაიჩერდება, რათა ის ზედა ნაწილში დარჩეს.</p>
+        </div>
+        <p>ამ სექციაში სხვა კონტენტიც არის, მაგრამ "Sticky" ელემენტი დარჩება თავის ადგილას.</p>
+        <p>თქვენ შეგიძლიათ გააგრძელოთ ტექსტი ქვემოთ.</p>
+        <p>და კიდევ...</p>
+        <p>და კიდევ...</p>
+        <p>ამგვარად, როდესაც გვერდი სკროლდება, sticky ელემენტი რჩება თავის ადგილას.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ვებგვერდი. ყველა უფლება დაცულია.</p>
+    </footer>
+
 </body>
 </html>
