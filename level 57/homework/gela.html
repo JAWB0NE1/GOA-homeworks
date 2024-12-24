@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>გამოსახულების ეფექტები</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            opacity: 0.8;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>გამოსახულების ეფექტები</h1>
+    <div class="gallery">
+        <img src="grisha dzia.jpg" alt="Image 1">
+        <img src="grisha dzia.jpg" alt="Image 2">
+        <img src="grisha dzia.jpg" alt="Image 3">
+    </div>
+
+</body>
+</html>
