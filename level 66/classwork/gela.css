@@ -1,0 +1,42 @@
+:root {
+    --main-color: #4CAF50;
+    --background-color: #f0f0f0;
+    --font-size: 18px;
+    --padding: 20px;
+    --margin: 10px;
+    --transition: all 0.3s ease;
+}
+
+
+.element1 {
+    color: var(--main-color);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element2 {
+    color: white;
+    background-color: var(--main-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.element3 {
+    color: var(--main-color);
+    background-color: var(--background-color);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: rotate(15deg);
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
