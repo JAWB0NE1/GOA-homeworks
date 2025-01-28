@@ -1,26 +1,20 @@
-function week(num){
-    if (num==1){
-        return "ორშაბათი"
-    }
-    if (num==2){
-        return "სამშაბათი"
-    }
-    if (num==3){
-        return "ოთხშაბათი"
-    }
-    if (num==4){
-        return "ხუთშაბათი"
-    }
-    if (num==5){
-        return "პარასკევი"
-    }
-    if (num==6){
-        return "შაბათი"
-    }
-    if (num==7){
-        return "კვირა"
-    }
-    else{
-        return "error"
+function getDayName(day) {
+    switch(day) {
+      case 1:
+        return "ორშაბათი";
+      case 2:
+        return "სამშაბათი";
+      case 3:
+        return "ოთხშაბათი";
+      case 4:
+        return "ხუთშაბათი";
+      case 5:
+        return "პარასკევი";
+      case 6:
+        return "შაბათი";
+      case 7:
+        return "კვირა";
+      default:
+        return "არასწორი დღე";
     }
 }
