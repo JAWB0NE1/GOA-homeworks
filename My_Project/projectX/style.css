@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.toper{
+    width: 1600px;
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(238, 255, 0), rgb(255, 0, 4));
+}
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+    color: white;
+    position: relative;
+    left: 570px;
+    top: -160px;
+    font-family: cursive;
+
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.verify{
+    position: relative;
+    left: 1390px;
+    top: -260px;
+    width: 156px;
+}
+.job {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+    color: white;
+    position: relative;
+    left: 670px;
+    top: -160px;
+    font-family: cursive;
+
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}.ani1 {
+    width: 50px;
+    height: 200px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transform-origin: right; 
+    transition: width 0.3s ease; 
+    left: -160px;
+  }
+  .ani1:hover {
+     width: 200px;
+  }
+.ani2 {
+    width: 50px;
+    height: 200px;
+    font-size: 16px;
+    background-color: #FF9000;
+    color: white;
+    border: none;
+    
+    cursor: pointer;
+    position: relative;
+    transform-origin: right;
+    transition: width 0.3s ease; 
+  }
+  .ani2:hover {
+     width: 300px;
+  }
+.d{
+    font-family: cursive;
+    color: #ffffff;
+    text-decoration: none;
+} 
+.d:hover{
+    font-size: 60px;
+}
+.ani3 {
+    width: 50px;
+    height: 200px;
+    font-size: 16px;
+    background-color: #cfcf00;
+    color: rgb(255, 255, 255);
+    border: none;
+    
+    cursor: pointer;
+    position: relative;
+    transform-origin: right;
+    transition: width 0.3s ease; 
+  }
+  .ani3:hover {
+     width: 400px;
+  }
+.bio{
+  color: white;
+  position: relative;
+  top: -600px;
+  font-size: 40px;
+  left: 600px;
+  font-family: cursive;
+  animation: fadeIn 4s forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+     opacity: 1;
+    }
+}
+.line1{
+    width: 40px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    top: -1351px;
+    left: 1300px;
+}
+.line2{
+    width: 40px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    top: -2151px;
+    left: 1400px;
+}
+.line3{
+    width: 40px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    top: -2951px;
+    left: 1500px;
+}
+.py{
+    position: relative;
+    top: -3590px;
+    left: 1000px;
+    width: 200px;
+    animation: fadeIn 5s forwards;
+    
+
+}
+.css{
+    position: relative;
+    top: -3400px;
+    left: 820px;
+    animation: fadeIn 6s forwards;
+    
+}
+.html{
+    position: relative;
+    top: -3200px;
+    left: 670px;
+    animation: fadeIn 8s forwards;
+    
+}
+.me{
+    position: relative;
+    top: -3810px;
+    width: 150px;
+    left: 130px;
+    animation: fadeIn 10s forwards;
+    } 
+    @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+}
+.boxx2{
+    width: 1600px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    top: -3155px;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.phone{
+    position: relative;
+    top: -3350px;
+    left: 100px;
+    width: 200px;
+}
+.number{
+    font-size: 60px;
+    position: relative;
+    left: 300px;
+    top: 70px;
+}
+.lang1{
+  width: 230px;
+  position: relative;
+  left: 300px;
+  top: 50px;
+}
+.lang2{
+  width: 170px;
+  left: 1000px;
+  position: relative;
+  top: -140px;
+}
+.poza{
+  position: relative;
+}
+.cl{
+  position: relative;
+  color: white;
+  font-family: cursive;
+  font-size: 50px;
+  left: 560px;
+  top: -50px;
+}
+@media (max-width: 1440px) {
+  .bio{
+    left: 470px;
+  }
+  .me{
+    left: 0px;
+  }
+  .py{
+    left: 840px;
+  }
+  .css{
+    left: 660px ;
+  }
+  .html{
+    left: 520px;
+  }
+  .line1{
+    left: 1100px;
+  }
+  .line2{
+    left: 1200px;
+  }
+  .line3{
+    left: 1300px;
+  }
+  .verify{
+    left: 1200px;
+  }
+}
+@media (max-width: 1024px) {
+    .ani2:hover{
+      width: 200px;
+    }
+    .ani3:hover{
+      width: 200px;
+    }
+    .name{
+      position: relative;
+      left: 340px;
+    }
+    .job{
+      left: 450px;
+    }
+    .me{
+      left: -100px;
+    }
+    .bio{
+      left: 300px;
+    }
+    .py{
+      left: 630px;
+    }
+    .css{
+      left: 460px;
+    }
+    .html{
+      left: 320px;
+    }
+    .verify{
+      left: 850px;
+    }
+    .line1{
+      left: 850px;
+      width: 30px;
+    }
+    .line2{
+      left: 910px;
+      width: 30px;
+    }
+    .line3{
+      left: 970px;
+      width: 30px;
+    }
+    .lang1{
+      left: 50px;
+    }
+    .cl{
+      left: 300px;
+    }
+    .lang2{
+      left: 700px;
+    }
+}
+  @media (max-width: 768px) {
+    .ani1{
+      width: 200px;
+    }
+    .ani2{
+      width: 200px;
+    }
+    .ani3{
+      width: 200px;
+    }
+    .bio{
+      left: 250px;
+      font-size: 30px;
+    }
+    .me{
+      top: -3600px;
+      width: 100px;
+      left: -40px;
+    }
+    .name{
+      left: 180px;
+
+    }
+    .job{
+      left: 300px;
+    }
+    .py{
+      width: 100px;
+      left: 500px;
+      top: -3460px;
+    }
+    .css{
+      width: 100px;
+      left: 400px;
+      top: -3300px;
+    }
+    .html{
+      width: 100px;
+      left: 200px;
+    }
+    .boxx2{
+      top: -3000px;
+    }
+    .phone{
+      top: -3200px;
+    }
+    .line1{
+      left: 600px;
+      top: -1196px;
+      width: 20px;
+    }
+    .line2{
+      left: 650px;
+      width: 20px;
+      top: -1996px;
+    }
+    .line3{
+      left: 696px;
+      width: 20px;
+      top: -2796px;
+    }
+    .lang1{
+      width: 150px;
+    }
+    .cl{
+      font-size: 35px;
+      left: 250px;
+      top: -20px;
+    }
+    .lang2{
+      width: 130px;
+      left: 550px;
+      top: -80px;
+    }
+  }
+  @media (max-width: 425px) {
+    .name{
+      font-size: 30px;
+      left: 90px;
+    }
+    .job{
+      font-size: 20px;
+      left: 160px;
+    }
+    .phone{
+      display: none;
+    }
+    .number{
+      left: 30px;
+    }
+    .ani1{
+      width: 100px;
+    }
+    .ani2{
+      width: 100px;
+    }
+    .ani3{
+      width: 100px;
+    }
+    .bio{
+      left: 140px;
+    }
+    .me{
+      left: -150px;
+      top: -3590px;
+    }
+    .html{
+      left: 500px;
+    }
+    .lang1{
+      width: 100px;
+      left: 10px;
+      top: 80px;
+    }
+    .cl{
+      left: 120px;
+      font-size: 25px;
+      top: 30px;
+    }
+    .lang2{
+      width: 90px;
+      left: 330px;
+      top: -20px;
+    }
+  }
+  @media (max-width: 401px) {
+    .name{
+      left: 60px;
+    }
+    .job{
+      left: 130px;
+    }
+    .bio{
+      left: 120px;
+    }
+    .lang1{
+      top: 30px;
+      left: 80px;
+    }
+    .lang2{
+      top: -60px;
+      width: 80px;
+      left: 270px;
+    }
+  }
+  @media (max-width: 375px) {
+    .bio{
+      left: 100px;
+      font-size: 1;
+    }
+    .name{
+      left: 50px;
+      color: black;
+    }
+    .job{
+      left: 120px;
+      color: black;
+    }
+    .ani1{
+      width: 90px;
+    }
+    .ani2{
+      width: 90px;
+    }
+    .ani3{
+      width: 90px;
+    }
+    .me{
+      left: 120px;
+      top: -3680px;
+    }
+    .number{
+      font-size: 50px;
+    }
+    .lang1{
+      top: 40px;
+      left: 70px;
+    }
+    .cl{
+      left: 85px;
+      top: 50px;
+    }
+    .lang2{
+      left: 200px;
+      top: -50px;
+    }
+  }
+  @media (max-width: 320px) {
+    .name{
+      left: 20px;
+    }
+    .job{
+      left: 90px;
+    }
+    .bio{
+      font-size: 30px;
+      top: -500px;
+    }
+    .ani1{
+      height: 160px;
+    }
+    .ani2{
+      height: 160px;
+    }
+    .ani3{
+      height: 160px;
+    }
+    .me{
+      top: -3570px;
+    }
+    .number{
+      left: 0px;
+    }
+  }

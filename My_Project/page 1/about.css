@@ -1,0 +1,144 @@
+
+body{    
+    background-color: #F2DD6E;
+}
+.evry{
+    position: relative;
+}
+.about_me{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.cm{
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+.cm:hover{
+    color:rgb(0, 117, 0);
+}
+.eam{
+    position: relative;
+    left: 600px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.image{
+    width: 600px;
+    position: relative;
+    left: 500px;
+}
+.sigma{
+    position: relative;
+    top: -400px;
+    left: 100px;
+    font-size: 50px;
+    font-family: cursive;
+    transition: transform 0.3s ease-in-out;
+}
+.sigma:hover{
+    transform: scale(1.1);
+    color: gray;
+}
+.animate-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    animation: scaleUp 1s ease-in-out 1; 
+    position: relative;
+    left: 600px;
+    font-family: cursive;
+
+}
+@keyframes scaleUp {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(1.5); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+}
+.GB{
+    position: relative;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(242, 221, 110);
+    background-color: black;
+    font-family: cursive;
+    
+}
+.github{
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+.github:hover{
+    color: rgb(0, 117, 0);
+}
+.gb2{
+    text-decoration: none;
+    color: #F2DD6E;
+}
+@media (max-width: 1024px) {
+    .sigma{
+        display: none;
+    }
+    .animate-text{
+        left: 500px;
+    }
+    .about_me{
+        font-size: 19px;
+        left: 100px;
+    }
+    .image{
+        left: 300px;
+    }
+    .GB{
+        left: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .about_me{
+        left: 80px;
+    }
+    .animate-text{
+        left: 300px;
+    }
+    .image{
+        left: 150px;
+    }
+}
+@media (max-width: 425px) {
+    .about_me{
+        font-size: 30px;
+        left: 120px;
+    }
+    .image{
+        left: 00px;
+    }
+    .animate-text{
+        left: 130px;
+        top: 40px;
+    }
+    .GB{
+        font-size: 30px;
+    }
+}
+@media (max-width: 375px) {
+    .GB{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1024px) {
+    .animate-text{
+        font-size: 29px;
+        left: 0px;
+    }
+
+    .about_me{
+        font-size: 38px;
+    }
+}

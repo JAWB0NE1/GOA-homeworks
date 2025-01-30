@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    background-image: linear-gradient(to right, rgb(17, 0, 255), rgb(212, 0, 255));
+    
+}
+.name{
+  color: white;
+  position: relative;
+  left: 200px;
+  top: 10px;
+  font-size:50px;
+  font-family: cursive;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.job{
+    color: white;
+    position: relative;
+    left: 200px;
+    top: -10px;
+    font-size: 35px;
+    font-family: cursive;
+}
+.box {
+    position: relative;
+    top: 80px;
+    left: 500px;
+    width: 690px;          
+    height: 820px;         
+    background-color: #ffffff;  
+    border: 1px solid rgb(162, 162, 162);    
+}
+.b1{
+    position: relative;
+    background-image: linear-gradient(to right, rgb(17, 0, 255), rgb(212, 0, 255));
+    top: 100px;
+    left: 150px;
+    font-size: 80px;
+    border-radius: 10px;
+}
+.b2{
+    position: relative;
+    background-image: linear-gradient(to right, rgb(17, 0, 255), rgb(212, 0, 255));
+    top: 200px;
+    left: 130px;
+    font-size: 80px;
+    border-radius: 10px;
+}
+.b3{
+    position: relative;
+    background-image: linear-gradient(to right, rgb(17, 0, 255), rgb(212, 0, 255));
+    top: 400px;
+    left: -180px;
+    font-size: 80px;
+    border-radius: 10px;
+}
+.am{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.ca{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.goa{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.eam{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    position: relative;
+    left: 150px;
+    top: 60px;
+    font-size: 40px;
+}
+
+@media (max-width: 1086px) {
+    .box{
+     left: 240px;
+    }
+    
+ 
+}
+@media (max-width: 1024px) {
+   .box{
+    left: 150px;
+   }
+   
+
+}
+
+@media (max-width: 768px) {
+    .box{
+     left: 50px;
+    }
+    .name{
+        left: 150px;
+    }
+    .job{
+        left: 240px;
+    }
+}
+@media (max-width: 425px) {
+    .box{
+     left: 0px;
+     width: 400px;
+    }
+    .b1{
+        font-size: 70px;
+        left: 40px;
+    }
+    .b2{
+        font-size: 70px;
+        left: 20px;
+    }
+    .b3{
+        font-size: 70px;
+        left: 110px;
+        top: 290px;
+    }
+    .eam{
+        font-size: 25px;
+        left: 90px;
+    }
+    .name{
+        font-size: 30px;
+        left: 60px;
+    }
+    .job{
+        top: 0px;
+        font-size: 18px;
+        left: 50px;
+    }
+}
+@media (max-width: 375px) {
+    .box{
+        width: 360px;
+    }
+    .eam{
+        left: 70px;
+    }
+    .b1{
+        font-size: 50px;
+        left: 60px;
+    }
+    .b2{
+        font-size: 50px;
+        left: 50px;
+    }
+    .b3{
+        font-size: 50px;
+    }
+    .name{
+        left: 30px;
+    }
+    .job{
+        left: 110px;
+    }
+}
+@media (max-width: 320px) {
+    .box{
+        width: 300px;
+    }
+    .b1{
+        font-size: 40px;
+    }
+    .b2{
+        font-size: 40px;
+    }
+    .b3{
+        font-size: 40px;
+    }
+    .eam{
+        font-size: 23px;
+        left: 40px;
+    }
+    .name{
+        left: 20px;
+    }
+    .job{
+        left: 90px;
+    }
+}

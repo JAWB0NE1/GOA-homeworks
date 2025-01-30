@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{    
+  background-color: black;
+}
+.toper{
+  width: 1700px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgb(238, 255, 0), rgb(255, 34, 0));
+  position: relative;
+  left: -000px;
+  top: -20px;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.s{
+  color: white;
+  font-size: 70px;
+  font-family: cursive;
+  position: relative;
+  top: -170px;
+  left: 700px;
+}
+.image{
+  position: relative;
+  left: 1400px;
+  top: 20px;
+  width: 180px;
+}
+.diagramas{
+  position: relative;
+  left: 200px;
+  top: -70px;
+}
+.line1{
+  width: 40px;
+  height: 800px;
+  background-color: white;
+  position: relative;
+  top: -540px;
+  left: 1300px;
+}
+.line2{
+  width: 40px;
+  height: 800px;
+  background-color: white;
+  position: relative;
+  top: -1340px;
+  left: 1400px;
+}
+.line3{
+  width: 40px;
+  height: 800px;
+  background-color: white;
+  position: relative;
+  top: -2140px;
+  left: 1500px;
+}
+.gb{
+  background-image: linear-gradient(to right, rgb(238, 255, 0), rgb(255, 34, 0));
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: -2300px;
+  border-radius: 15px;
+  left: 500px;
+}
+.gb2{
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+@media (max-width: 1440px) {
+  .image{
+      position: relative;
+      left: 1200px;
+  }
+  .line1{
+      left: 1180px;
+      width: 35px;
+  }
+  .line2{
+      left: 1270px;
+      width: 35px;
+  }
+  .line3{
+      left: 1360px;
+      width: 35px;
+  }
+  .diagramas{
+      left: 100px;
+  }
+  .gb{
+      left: 400px;
+  }
+  .s{
+      left: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  .s{
+      left: 400px;
+  }
+  .image{
+      left: 800px;
+  }
+  .diagramas{
+      width: 00px;
+      left: 300px;
+  }
+  .line1{
+      left: 800px;
+      width: 30px;
+      top: -1355px;
+      height: 1600px;
+  }
+  .line2{
+      left: 860px;
+      width: 30px;
+      top: -2956px;
+      height: 1600px;
+  }
+  .line3{
+      left: 920px;
+      width: 30px;
+      top: -4556px;
+      height: 1600px
+  }
+  .gb{
+      left: 260px;
+      top: -4700px;
+  }
+
+}
+@media (max-width: 768px) {
+  .s{
+      left: 300px;
+  }
+  .diagramas{
+      left: 180px;
+  }
+  .line1{
+      left: 600px;
+      width: 20px;
+  }
+  .line2{
+      left: 650px;
+      width: 20px;
+  }
+  .line3{
+      left: 700px;
+      width: 20px;
+  }
+  .gb{
+      left: 100px;
+  }
+}
+@media (max-width: 425px) {
+  .s{
+      left: 140px;
+  }
+  .diagramas{
+      left: 70px;
+  }
+  .gb{
+      left: 20px;
+  }
+}
+@media (max-width: 401px) {
+  .s{
+    left: 110px;
+  }
+  .gb{
+    left: 0px;
+  }
+  .diagramas{
+    left: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .s{
+      left: 100px;
+  }
+  .diagramas{
+      left: 30px;
+  }
+  .gb{
+      left: 40px;
+      width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .s{
+      left: 70px;
+  }
+  .diagramas{
+      left: 0px;
+  }
+  .gb{
+      left: 10px;
+  }
+}
