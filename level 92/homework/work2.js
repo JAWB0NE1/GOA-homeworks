@@ -1,0 +1,14 @@
+const people = [{ name: 'Alice' }, { name: 'Bob' }];
+const places = [{ city: 'Paris' }, { city: 'London' }];
+let mergedArray = people.concat(places);
+console.log("After concatenation:", mergedArray); 
+mergedArray.copyWithin(2, 0, 2);
+console.log("After copyWithin:", mergedArray); 
+mergedArray.fill({ city: 'New York' }, 2, 4);
+console.log("After fill:", mergedArray); 
+mergedArray.pop();
+console.log("After pop:", mergedArray); 
+mergedArray.shift();
+console.log("After shift:", mergedArray); 
+mergedArray.unshift({ name: 'Charlie' }, { name: 'David' });
+console.log("Final array:", mergedArray); 

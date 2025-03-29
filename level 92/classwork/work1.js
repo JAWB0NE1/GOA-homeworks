@@ -1,0 +1,16 @@
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let concatArray = array1.concat(array2);
+console.log(concatArray);
+concatArray.copyWithin(concatArray.length - 2, 0, 2);
+console.log(concatArray);
+concatArray.fill(0, concatArray.length - 3);
+console.log(concatArray);
+let lastElement = concatArray.pop();
+console.log(lastElement);
+console.log(concatArray);
+let firstElement = concatArray.shift();
+console.log(firstElement);
+console.log(concatArray);
+concatArray.unshift(10, 20);
+console.log(concatArray);
