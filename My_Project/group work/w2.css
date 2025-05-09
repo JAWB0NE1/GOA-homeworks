@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/15/07/13/empire-state-building-600001_1280.jpg?fbclid=IwY2xjawKFlgJleHRuA2FlbQIxMABicmlkETFRVWtacW5UM1lBRk92b3NrAR6rXVbr1PGMcap0Nh9nz-lwh_bi3J1Vq--abXx-NwTCyDNDjsjN0lcs-_vupg_aem_IXZpiLTDhzQM1Z0K_CNTMQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 490px;
+}
+.bp{
+    background-color: rgb(160, 158, 131);
+    position: relative;
+    border-width:1px;
+    border-radius: 2em;
+    width: 150px;
+    height: 60px;
+}
+.bm{
+    background-color: rgb(160, 158, 131);
+    position: relative;
+    border-width:1px;
+    border-radius: 2em;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: -60px;
+}
+.brest{
+    position: relative;
+    border-width:1px;
+    border-radius: 2em;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: -80px;
+}
+.c1{
+    font-size: 20px;
+}
+.c2{
+    font-size: 20px;
+}
+.c3{
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+}
+.gb{
+    border-radius: 20px;
+    border-width: 1px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 690px;
+    left: 1390px;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    
+}
+@media (max-width: 1024px){
+    .brest{
+        left: -35px;
+    }
+}
+@media (max-width: 426px){
+    .bp{
+        width: 100px;
+        height: 50px;
+    }
+    .brest{
+        width: 100px;
+        height: 50px;
+        left: 0px;
+    }
+    .bm{
+        width: 100px;
+        height: 50px;
+        left: 0px;
+    }
+}

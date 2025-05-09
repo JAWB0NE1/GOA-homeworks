@@ -1,0 +1,54 @@
+body{
+    background-image: url(pexels-photo-325185.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calculator{
+    border-radius: 20em;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(144, 204, 214);
+    border-width: 0px;
+}
+.counter{
+    border-radius: 20em;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(144, 204, 214);
+    border-width: 0px;
+}
+.container{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ct{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-decoration: none;
+}
+.clt{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-decoration: none;
+}
+@media (max-width: 425px) {
+    .clt {
+        font-size: 20px;
+    }
+    .ct {
+        font-size: 20px;
+    }
+    .calculator{
+        width: 120px;
+        height: 70px;
+    }
+
+    .counter{
+        width: 120px;
+        height: 70px;
+    }
+}

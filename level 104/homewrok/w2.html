@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Slider</title>
+    <link rel="stylesheet" href="w2.css">
+</head>
+<body>
+    <div class="slider-container" onmouseover="pauseSlider()" onmouseleave="startSlider()">
+        <img src="" class="slide active">
+        <img src="" class="slide">
+        <img src="" class="slide">
+        <img src="" class="slide">
+        <button class="prev" onclick="changeSlide(-1)">back</button>
+        <button class="next" onclick="changeSlide(1)">next</button>
+    </div>
+
+    <script src="w2.js"></script>
+</body>
+</html>
