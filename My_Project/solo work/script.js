@@ -4,11 +4,15 @@ function updateSlide() {
     document.getElementById("slide").src = images[currentIndex];
 }
 function prevSlide() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    updateSlide();
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateSlide();
+    }
 }
 function nextSlide() {
-    currentIndex = (currentIndex + 1) % images.length;
-    updateSlide();
+    if (currentIndex < images.length - 1) {
+        currentIndex++;
+        updateSlide();
+    }
 }
-alert("Loged in to English")
+alert("Loged in to English");
