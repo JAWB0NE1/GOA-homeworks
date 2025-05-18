@@ -1,0 +1,1 @@
+let gela = document.getElementsByTagName(h1)

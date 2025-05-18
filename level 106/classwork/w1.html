@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაციის ფორმა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            transition: background-color 0.5s;
+        }
+        .container {
+            max-width: 300px;
+            margin: auto;
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        #message {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>რეგისტრაციის ფორმა</h2>
+        <input type="text" id="name" placeholder="სახელი">
+        <input type="text" id="surname" placeholder="გვარი">
+        <input type="email" id="email" placeholder="ელფოსტა">
+        <input type="password" id="password" placeholder="პაროლი">
+        <input type="password" id="confirmPassword" placeholder="დაადასტურეთ პაროლი">
+        <button onclick="validateForm()">რეგისტრაცია</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function validateForm() {
+            const name = document.getElementById("name").value;
+            const surname = document.getElementById("surname").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
+            const message = document.getElementById("message");
+
+            if (!name || !surname || !email || !password || !confirmPassword) {
+                alert("გთხოვთ შეავსოთ ყველა ველი!");
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                document.body.style.backgroundColor = "red";
+                message.style.color = "white";
+                message.textContent = "⚠ Warning: პაროლები არ ემთხვევა!";
+            } else {
+                document.body.style.backgroundColor = "lightgreen";
+                message.style.color = "black";
+                message.textContent = "✅ Successfully login!";
+            }
+        }
+    </script>
+</body>
+</html>
