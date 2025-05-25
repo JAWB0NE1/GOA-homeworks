@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სიის ელემენტები</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 10px;
+            background-color: lightgray;
+            width: 200px;
+        }
+        li {
+            padding: 10px;
+            background-color: white;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul id="list">
+        <li>პირველი ელემენტი</li>
+        <li>მეორე ელემენტი</li>
+        <li>მესამე ელემენტი</li>
+        <li>მეოთხე ელემენტი</li>
+    </ul>
+
+    <script>
+        document.getElementById('list').addEventListener('click', function(event) {
+            if (event.target.tagName === 'LI') {
+                console.log('დაწკაპუნებული ელემენტის ტექსტი:', event.target.textContent);
+            }
+        });
+    </script>
+</body>
+</html>

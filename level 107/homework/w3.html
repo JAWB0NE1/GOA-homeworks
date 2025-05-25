@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count & Style List Items</title>
+    <style>
+        li {
+            padding: 10px;
+            margin: 5px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <p id="count"></p>
+
+    <script>
+        let listItems = document.getElementsByTagName("li");
+        document.getElementById("count").textContent = "Total <li> elements: " + listItems.length;
+        for (let i = 0; i < listItems.length; i++) {
+            listItems[i].style.border = "1px solid black";
+        }
+    </script>
+</body>
+</html>

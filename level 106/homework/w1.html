@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაციის ფორმა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .warning {
+            background-color: red;
+            color: white;
+        }
+        .success {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2>რეგისტრაციის ფორმა</h2>
+    <form id="registrationForm">
+        <input type="text" id="firstname" placeholder="სახელი"><br><br>
+        <input type="text" id="lastname" placeholder="გვარი"><br><br>
+        <input type="email" id="email" placeholder="ემაილი"><br><br>
+        <input type="password" id="password" placeholder="პაროლი"><br><br>
+        <input type="password" id="confirmPassword" placeholder="დადასტურება პაროლის"><br><br>
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+    <p id="message"></p>
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let firstname = document.getElementById('firstname').value;
+            let lastname = document.getElementById('lastname').value;
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+            let confirmPassword = document.getElementById('confirmPassword').value;
+            let message = document.getElementById('message');
+            
+            if (!firstname || !lastname || !email || !password || !confirmPassword) {
+                alert("გთხოვთ შეავსოთ ყველა ველი!");
+                return;
+            }
+            if (password !== confirmPassword) {
+                document.body.className = 'warning';
+                message.textContent = 'Warning';
+                return;
+            }
+            document.body.className = 'success';
+            message.textContent = 'successfullylogin';
+        });
+    </script>
+</body>
+</html>

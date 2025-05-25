@@ -1,0 +1,1 @@
+const firstChar = str => str[0];

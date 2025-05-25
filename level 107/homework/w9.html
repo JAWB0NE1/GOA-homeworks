@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Replace Example</title>
+    <style>
+        .offline {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .online {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="status-btn" class="offline">Offline</button>
+
+    <script>
+        document.getElementById("status-btn").addEventListener("click", function() {
+            this.classList.replace("offline", "online");
+            this.textContent = "Online";
+        });
+    </script>
+
+</body>
+</html>
