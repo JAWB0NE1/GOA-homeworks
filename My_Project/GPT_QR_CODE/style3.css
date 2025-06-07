@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Pixel Operator';
+    src: url('PixelOperator.ttf') format('truetype');
+}
+body{
+    background-image: url(background_darck.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'VT323', monospace;
+    overflow: hidden;
+}
+.box1{
+    width: 1400px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(241, 221, 249),rgb(161, 81, 193));
+}
+.hed{
+    display: flex;
+    flex-direction: row;
+}
+.recardl{
+    width: 300px;
+    height: 200px;
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(241, 221, 249),rgb(161, 81, 193));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    left: 1000px;
+    top: 100px;
+}
+.txtb{
+    font-size: 70px;
+    color: white;
+    position: relative;
+    left: 190px;
+    top: -250px;
+}
+.qr{
+    border-radius: 20px;
+    position: relative;
+    left: 1010px;
+    width: 480px;
+    height: 480px;
+    top: -600px;
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Pixel Operator';
+    src: url('PixelOperator.ttf') format('truetype');
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'VT323', monospace;
+}
+.img1{
+    position: relative;
+    left: -20px;
+    top: -320px;
+}
+.div1{
+    position: relative;
+    left: 1000px;
+    top: 300px;
+}
+.rc{
+    position: relative;
+    top: -650px;
+    width: 400px;
+    left: -10px;
+    border-radius: 30px;
+}
+.card{
+    position: relative;
+    top: -890px;
+    width: 400px;
+    left: -550px;
+    border-radius: 15px;
+}
+.bline{
+    width: 399px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: -852px;
+    left: 504px;
+}
+.txt1{
+    font-size: 40px;
+    position: relative;
+    left: -50px;
+    top: -100px;
+}
+.txt2{
+    font-size: 40px;
+    position: relative;
+    left: -50px;
+    top: -70px;
+}
+.txt3{
+    font-size: 40px;
+    position: relative;
+    top: -90px;
+    left: -45px;
+}
+.inp1{
+    width: 400px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    top: -80px;
+    left: -60px;
+    font-family: 'VT323', monospace;
+}
+.inp2{
+    width: 400px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    top: -50px;
+    left: -60px;
+    font-family: 'VT323', monospace;
+}
+.inp3{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    position: relative;
+    top: 7px;
+    left: 140px;
+}
+.inp4{
+    width: 150px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    left: -60px;
+    top: -80px;
+    font-family: 'VT323', monospace;
+}
+.bt1{
+    position: relative;
+    top: -800px;
+    left: 940px;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(32, 9, 44);
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+}

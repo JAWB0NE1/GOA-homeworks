@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Pixel Operator';
+    src: url('PixelOperator.ttf') format('truetype');
+}
+.st{
+    width: 1390px;
+    height: 250px;
+    position: relative;
+    left: 320px;
+    top: -264px;
+    background: linear-gradient(to right, rgb(29, 1, 114), rgb(80, 6, 176));
+}
+body{
+    background-image: url(background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'VT323', monospace;
+}
+.img1{
+    width: 340px;
+    height: 250px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+.gbp{
+    position: relative;
+    left: 1570px;
+    width: 100px;
+    height: 50px;
+    top: -330px;
+    border-width: 0px;
+}
+.img2{
+    width: 100px;
+    height: 50px;
+}
+.geop{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 1340px;
+    top: -330px;
+    border-width: 0px;
+}
+.img3{
+    width: 100px;
+    height: 50px;
+}
+.txt1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    left: 50px;
+    top: -100px;
+}
+.front{
+    border-radius: 30px;
+    width: 680px;
+    height: 350px;
+    position: relative;
+    left: 850px;
+    top: -400px;
+}
+.back{
+    border-radius: 30px;
+    width: 680px;
+    height: 350px;
+    position: relative;
+    left: 240px;
+    top: 0px;
+}
+.cd1{
+    width: 677px;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    left: 928px;
+    top: -320px;
+}
+.txt2{
+    color: white;
+    font-size: 90px;
+    position: relative;
+    left: 100px;
+}
+.bt1{
+    width: 1100px;
+    height: 300px;
+    position: relative;
+    border-radius: 30px;
+    border-width: 0px;
+    top: 100px;
+    left: 300px;
+    font-family: 'VT323', monospace;
+    background-color: rgb(98, 0, 190);
+    color: white;
+}
+.btx1{
+    font-size: 60px;
+}
+.btx2{
+    font-size: 140px;
+}
+.txt3{
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.commbox{
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(to bottom, rgb(161, 0, 255), rgb(70, 2, 110));
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.comment{
+    display: flex;
+    justify-content: space-around;
+}
+.avat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: -520px;
+}
+.ava{
+    width: 150px;
+    height: 100px;
+    border-radius: 100px;
+}
+.cont{
+    width: 1700px;
+    height: 300px;
+    background-color: rgb(70, 2, 110);
+    color: white;
+    position: relative;
+}
+.cm{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cmm1{
+    font-size: 35px;
+    position: relative;
+    left: -30px;
+    top: -220px;
+}
+.cmm2{
+    font-size: 35px;
+    position: relative;
+    top: -220px;
+    left: -50px;
+}
+.cmm3{
+    font-size: 35px;
+    position: relative;
+    top: -220px;
+    left: -20px;
+}
+.txt4{
+    font-size: 70px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.txt41{
+    font-size: 160px;
+    position: relative;
+    left: 70px;
+}
+.txt5{
+    font-size: 160px;
+    position: relative;
+    left: 1200px;
+    top: -230px;
+}
+.txt51{
+    font-size: 70px;
+    position: relative;
+    top: -250px;
+    left: 1200px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    border-radius: 30px;
+  }
+  10%{
+    opacity: 0.5;
+    background-color: rgb(0, 220, 0);
+    border-radius: 30px;
+  }
+  15%{
+    opacity: 0.4;
+    background-color: rgb(0, 220, 0);
+    border-radius: 30px;
+  }
+  18%{
+    opacity: 0.4;
+    border-radius: 30px;
+  }
+  20%{
+    opacity: 0.4;
+    border-radius: 30px;
+  }
+  25%{
+    opacity: 0.4;
+  }
+  30%{
+    opacity: 0.4;
+  }
+  35%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#faceid {
+    width: 300px;
+    animation: fadeOut 1s ease-out forwards;
+    animation-delay: 0.5s;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    left: 690px;
+    top: -2630px;
+}
+@media (max-width: 1440px){
+    .back{
+        left: 0px;
+    }
+    .cd1{
+        left: 607px;
+    }
+    .front{
+        left: 800px;
+        width: 600px;
+    }
+    .bt1{
+        left: 180px;
+    }
+    .txt2{
+        position: relative;
+        left: 200px;
+    }
+    .commbox{
+        width: 470px;
+    }
+    .txt5{
+        left: 1000px;
+    }
+    .txt51{
+        left: 1000px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 426px){
+    body{
+        overflow-x: hidden;
+    }
+    .back{
+        display: none;
+    }
+    .txt5{
+        display: none;
+    }
+    .txt51{
+        display: none;
+    }
+    .txt1{
+        font-size: 30px;
+    }
+    .front{
+        left: 10px;
+        width: 400px;
+        height: 220px;
+        top: -0px;
+    }
+    .txt2{
+        font-size: 30px;
+        left: 50px;
+    }
+    .bt1{
+        width: 300px;
+        height: 150px;
+        left: 70px;
+    }
+    .btx1{
+        font-size: 30px;
+    }
+    .btx2{
+        font-size: 40px
+    }
+    .txt3{
+        font-size: 30px;
+    }
+    #c1{
+        display: none;
+    }
+    #c3{
+        display: none;
+    }
+    .cmm2{
+        display: none;
+    }
+    .cmm1{
+        display: none;
+    }
+    .cmm3{
+        left: 10px;
+    }
+    #ava1{
+        display: none;
+    }
+    #ava2{
+        display: none;
+    }
+    .txt4{
+        font-size: 40px;
+        top: 70px;
+        left: 70px;
+    }
+    .txt41{
+        top: 70px;
+        left: 20px;
+    }
+}
+@media (max-width: 426px){
+    #faceid{
+        position: relative;
+        left: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .geop{
+        display: none;
+    }
+    .gbp{
+        display: none;
+    }
+    .st{
+        width: 120px;
+    }
+    .txt1{
+        left: 20px;
+        font-size: 28px;
+    }
+    .front{
+        width: 360px;
+        height: 200px;
+    }
+    .txt2{
+        left: 20px;
+    }
+    .bt1{
+        left: 35px;
+    }
+    .txt41{
+        font-size: 120px;
+        left: 50px;
+    }
+    .txt4{
+        left: 50px;
+    }
+    .cd1{
+        display: none;
+    }
+}
