@@ -1,0 +1,1 @@
+const myDog = new Dog("Buddy");

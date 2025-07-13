@@ -1,0 +1,1 @@
+console.log(myDog.name);
