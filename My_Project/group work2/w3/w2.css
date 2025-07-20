@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+i{
+  color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(142, 68, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: row;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.counter {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
