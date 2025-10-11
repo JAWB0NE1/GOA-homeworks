@@ -1,0 +1,20 @@
+const mySet = new Set();
+mySet.add(1);
+mySet.add(2);
+mySet.add(3);
+console.log(mySet.has(2)); 
+console.log(mySet.has(5)); 
+console.log(mySet.size);
+mySet.delete(2); 
+console.log(mySet.has(2)); 
+mySet.clear();
+console.log(mySet.size);
+const setA = new Set([10, 20, 30]);
+setA.forEach(value => {
+  console.log(value);
+});
+const arrayFromSet = Array.from(setA);
+const arrayAlt = [...setA];
+console.log(arrayFromSet); 
+const intersection = new Set([...setA].filter(value => setB.has(value)));
+console.log(intersection); 
