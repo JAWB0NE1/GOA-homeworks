@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+:root{
+  background-color: rgb(2, 1, 43);
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+.txtbox1{
+  color: white;
+}
+.txt1{
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 50px;
+  left: -600px;
+}
+.txt2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  font-size: 60px;
+}
+.search{
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+.search input{
+  width: 600px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(37, 37, 63);
+  font-size: 20px;
+  color: white;
+  border: 0px;
+}
+.search button{
+  width: 100px;
+  height: 54px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color:rgb(70, 87, 217) ;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cube1{
+  width: 900px;
+  height: 360px;
+  background: linear-gradient(90deg, rgb(70, 87, 217),rgb(47, 32, 161));
+  position: relative;
+  left: 305px;
+  top: 50px;
+  border-radius: 40px;
+}
+#cityName{
+  font-size: 30px;
+  margin-top: 20px;
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+.cube1 p{
+  position: relative;
+  left: 20px;
+  top: 136px;
+  font-size: 17px;
+  color: rgb(203, 212, 255);
+}
+#temp{
+  font-size: 80px;
+  position: relative;
+  left: 680px;
+  top: 0px;
+}
+.details{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 80px;
+}
+.box{
+  width: 210px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: rgb(37, 37, 63);
+  position: relative;
+  border: rgb(74, 74, 118) 1px solid;
+}
+#box1{
+  left: 165px;
+} 
+#box2{
+  left: -75px;
+} 
+#box3{
+  left: -320px;
+} 
+#box4{
+  left: -570px;
+} 
+.box p{
+  position: relative;
+  top: 5px;
+  left: 19px;
+  font-size: 17px;
+  color: rgb(203, 212, 255);
+}
+.box h3{
+  position: relative;
+  top: 10px;
+  left: 19px;
+  font-size: 25px;
+}
+.diverman{
+  width: 500px;
+  height: 970px;
+  background-color: rgb(37, 37, 63);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 1230px;
+  top: -440px;
+  border-radius: 20px;
+
+}
+.divs{
+  width: 440px;
+  height: 90px;
+  background-color: rgb(47, 47, 73);
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: rgb(74, 74, 118) 1px solid;
+}
+.divs p{
+  position: relative;
+  left: 20px;
+}
+.dp1{
+  font-size: 20px;
+  position: relative;
+  left: -140px;
+  top: 20px;
+}
+.lone_wolf{
+  font-size: 20px;
+  position: relative;
+  top: -780px;
+  left: 290px;
+}
+.di7man{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 490px;
+  position: relative;
+  top: -1210px;
+  left: -210px;
+}
+.di7man div{
+  background-color: rgb(47, 47, 73);
+  width: 109px;
+  height: 230px;
+  border-radius: 10px;
+  border: rgb(74, 74, 118) 1px solid;
+}
+.p1{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+.p2{
+  font-size: 17px;
+  margin-top: 20px;
+  text-align: left;
+  position: relative;
+  top: 130px;
+  left: 10px;
+}
+.p3{
+  font-size: 17px;
+  text-align: right; 
+  position: relative;
+  top: 94px;
+  right: 10px;
+}
