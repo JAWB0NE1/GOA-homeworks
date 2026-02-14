@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// 1. რა არის კაუჭი (Hook)?
+// React-ში "კაუჭი" არის სპეციალური ფუნქცია,
+// რომელიც საშუალებას გვაძლევს ფუნქციურ კომპონენტებში
+// გამოვიყენოთ React-ის შესაძლებლობები (მაგ: state, lifecycle).
 
-function App() {
-  const [count, setCount] = useState(0)
+// 2. რატომ შექმნეს კაუჭი?
+// ადრე state და lifecycle მხოლოდ კლასებში შეიძლებოდა.
+// კაუჭები შექმნეს იმისთვის, რომ იგივე ფუნქციონალი
+// ფუნქციურ კომპონენტებშიც გამოგვეყენებინა,
+// რაც კოდს ამარტივებს და უფრო გასაგებს ხდის.
+
+// 3. როდის ვიყენებთ კაუჭს?
+// როცა გვჭირდება state-ის შენახვა,
+// გვერდითი ეფექტების შესრულება (მაგ: API call),
+// ან სხვა React-ის შესაძლებლობები ფუნქციურ კომპონენტში.
+
+// 4. რა არის useState კაუჭი?
+// useState არის ერთ-ერთი ყველაზე ხშირად გამოყენებული Hook,
+// რომელიც კომპონენტში ქმნის "შინაგან მდგომარეობას" (state).
+
+// 5. როგორ ვიყენებთ useState კაუჭს?
+// useState-ს ვიძახებთ კომპონენტის დასაწყისში.
+// ის აბრუნებს ორ მნიშვნელობას: [მნიშვნელობა, ფუნქცია]
+// მნიშვნელობა = მიმდინარე state
+// ფუნქცია = state-ის განახლების საშუალება
+
+import React, { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <p>მიმდინარე რიცხვი: {count}</p>
+      {}
+      <button onClick={() => setCount(count + 1)}>+1</button>
+    </div>
+  );
 }
-
-export default App
